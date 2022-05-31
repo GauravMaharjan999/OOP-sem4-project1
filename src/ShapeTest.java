@@ -2,12 +2,12 @@ public class ShapeTest
 {
     public static void main(String[] args)
     {
-        Shape[] shapes = new Shape[6];
+        Shape[] shapes = new Shape[4];
 
         shapes[0] = new Square(1.0);
-        shapes[2] = new Circle(1.0);
-        shapes[3] = new Sphere(1.0);
-        shapes[4] = new Cube(1.0);
+        shapes[1] = new Circle(1.0);
+        shapes[2] = new Sphere(1.0);
+        shapes[3] = new Cube(1.0);
 
 
         for(Shape s : shapes)
